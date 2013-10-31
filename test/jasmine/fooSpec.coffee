@@ -6,5 +6,5 @@ describe 'Test foo.js', ->
 
   it 'Check Foo Fail', ->
     res = Foo.check()
-    expect(res).toBe(false)
+    expect(res).toBe(true)
 

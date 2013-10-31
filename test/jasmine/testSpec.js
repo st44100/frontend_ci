@@ -19,7 +19,7 @@
     return it('Check Foo Fail', function() {
       var res;
       res = Foo.check();
-      return expect(res).toBe(false);
+      return expect(res).toBe(true);
     });
   });
 
